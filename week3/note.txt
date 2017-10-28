@@ -1,0 +1,12 @@
+1.np.random.seed()使得随机数是可以预测的。
+设置相同的seed，每次生成的随机数是相同的。
+不设置seed，则每次会生成不同的随机数。
+2.linspace用于创建等差数列。
+np.linspace(1,10,num = 10)前两个参数分别是数列的开头和结尾。第三个参数用于指定数列
+的元素个数，默认为50.
+endpoint:bool,optional
+if True,stop is the last sample.Otherwise,it is not inclued.Default is True.
+retstep:bool,optional
+if True,return(sample,step),where step is the spacing between samples.
+3.np.r_按row来组合array
+np.c_按colunm来组合array
